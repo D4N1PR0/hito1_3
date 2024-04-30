@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta del Tiempo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta del Tiempo</h1>
+        <form id="provinciaForm">
+            <label for="provincia">Selecciona una provincia:</label>
+            <select id="provincia" name="provincia"></select>
+        </form>
+        
+        <form id="ciudadForm" style="display:none;">
+            <label for="ciudad">Selecciona una ciudad:</label>
+            <select id="ciudad" name="ciudad"></select>
+        </form>
+        
+        <div id="tiempoDatos" style="display:none;">
+            <h2>Tiempo Actual</h2>
+            <p><strong>Tiempo:</strong> <span id="tiempoActual"></span></p>
+            <p><strong>Temperatura Max:</strong> <span id="temperaturamax"></span></p>
+            <p><strong>Temperatura Min:</strong> <span id="temperaturamin"></span></p>
+        </div>
+    </div>
+<style></style>
+    <script src="script.js"></script>
+</body>
+</html>

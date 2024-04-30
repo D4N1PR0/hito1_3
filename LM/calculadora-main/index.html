@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" />
+    <script src="Display.js" type="text/javascript"></script>
+    <script src="Calculadora.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <div class="display">
+                <div id="valor-anterior"></div>
+                <div id="valor-actual"></div>
+            </div>
+            <button id="borrar-todo" class="btn btn-primary" onclick="display.borrarTodo()">C</button>
+            <button type="button" class="btn btn-primary operador" onclick="display.borrar()">&larr;</button>
+            <button type="button" class="btn btn-primary operador" value="dividir">/</button>
+            <button type="button" class="btn btn-primary numero">7</button>
+            <button type="button" class="btn btn-primary numero">8</button>
+            <button type="button" class="btn btn-primary numero">9</button>
+            <button type="button" class="btn btn-primary operador" value="multiplicar">X</button>
+            <button type="button" class="btn btn-primary numero">4</button>
+            <button type="button" class="btn btn-primary numero">5</button>
+            <button type="button" class="btn btn-primary numero">6</button>
+            <button type="button" class="btn btn-primary operador" value="restar">-</button>
+            <button type="button" class="btn btn-primary numero">1</button>
+            <button type="button" class="btn btn-primary numero">2</button>
+            <button type="button" class="btn btn-primary numero">3</button>
+            <button type="button" class="btn btn-primary operador" value="sumar">+</button>
+            <button type="button" class="btn btn-primary numero btn-wide">0</button>
+            <button type="button" class="btn btn-primary numero">.</button>
+            <button type="button" class="btn btn-primary operador" value="igual">=</button>
+            <button type="button" class="btn btn-primary operador" value="cuadrado">x^2</button>
+            <button type="button" class="btn btn-primary operador" value="porcentaje">%</button>
+            <button type="button" class="btn btn-primary operador" value="raiz">√</button>
+            <button type="button" class="btn btn-primary numero">69</button>
+
+
+        </div>
+    </div>
+</body>
+</html>

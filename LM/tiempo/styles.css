@@ -1,0 +1,32 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#tiempoDatos {
+    margin-top: 20px;
+}
+
+#tiempoActual {
+    font-weight: bold;
+}
+
+.temperatura {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.temperatura span {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+#temperaturamax {
+    background-color: red;
+}
+
+#temperaturamin {
+    background-color: blue;
+}
